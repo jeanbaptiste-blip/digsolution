@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DigiSolution - Services Digitaux</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container header-container">
+            <div class="logo">Digi<span>Solution</span></div>
+            <div class="menu-toggle" id="menuToggle">
+                <i class="fas fa-bars"></i>
+            </div>
+            <nav id="mainNav">
+                <ul>
+                    <li><a href="#accueil">Accueil</a></li>
+                    <li><a href="#apropos">À propos</a></li>
+                    <li><a href="#services">Nos services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!--  Section Hero -->
+    <section id="accueil" class="hero">
+        <div class="container">
+            <h1>Solutions Digitales Modernes</h1>
+            <p>Nous transformons vos idées en expériences digitales exceptionnelles. Design, développement web et stratégie digitale.</p>
+            <a href="#contact" class="btn">Nous contacter</a>
+        </div>
+    </section>
+
+    <!-- Section a propos -->
+    <section id="apropos" class="about">
+        <div class="container">
+            <h2 class="section-title">À propos de nous</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Des experts du digital à votre service</h3>
+                    <p>DigiSolution est un groupe de référents passionnés par l'innovation digitale. Depuis 5 ans, nous accompagnons nos clients dans leur transformation numérique avec des solutions sur mesure.</p>
+                    <p>Notre équipe multidisciplinaire réunit des talents complémentaires : designers UX/UI, développeurs full-stack, experts en marketing digital et consultants en stratégie.</p>
+                    <p>Nous croyons en une approche collaborative où le client est au centre de chaque décision. Notre objectif : créer des solutions qui répondent parfaitement à vos besoins et qui dépassent vos attentes.</p>
+                    <button class="btn" id="teamBtn">Découvrir notre équipe</button>
+                </div>
+                <div class="about-image">
+                    <img src="https://i.pinimg.com/736x/fe/b4/ee/feb4ee3a153ba387f51689a4f540e273.jpg" alt="Équipe DigiSolution">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2 class="section-title">Nos services</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-paint-brush"></i>
+                    </div>
+                    <h3>Design Graphique</h3>
+                    <p>Création d'identités visuelle percutantes, interfaces utilisateur intuitives et expériences engageantes pour vos produits digitaux.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <h3>Développement Web</h3>
+                    <p>Conception et développement de sites web responsives, applications sur mesure et solutions e-commerce performantes.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Marketing Digital</h3>
+                    <p>Stratégies de référencement, campagnes publicitaires ciblées et contenu engageant pour maximiser votre visibilité en ligne.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Contactez-nous</h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3>Discutons de votre projet</h3>
+                    <p>Notre équipe est à votre disposition pour répondre à toutes vos questions et vous accompagner dans la concrétisation de vos projets digitaux.</p>
+                    <div class="info-item">
+                        <div class="info-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div>
+                            <h4>Adresse</h4>
+                            <p>123 Avenue du Digital, 75000 Paris</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div>
+                            <h4>Téléphone</h4>
+                            <p>+33 1 23 45 67 89</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div>
+                            <h4>Email</h4>
+                            <p>contact@digisolution.fr</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Nom complet</label>
+                            <input type="text" id="name" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Adresse email</label>
+                            <input type="email" id="email" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" class="form-control" required></textarea>
+                        </div>
+                        <button type="submit" class="btn">Envoyer le message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-content">
+            <div class="logo">Digi<span>Solution</span></div>
+            <p>Votre partenaire pour des solutions digitales innovantes</p>
+            <div class="copyright">
+                <p>&copy; 2023 DigiSolution. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
