@@ -1,0 +1,1 @@
+Ce projet est un site web permettant de vendre les compétences des référents. Il facilite la mise en relation entre experts et clients.
